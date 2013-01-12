@@ -5,7 +5,13 @@ gem 'rails', '3.2.11'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'pg'
+gem 'sqlite3'
+
+
+gem 'newrelic_rpm'
+
+
+gem 'haml-rails'       # HAML instead of ERB
 
 
 # Gems used only for assets and not required
